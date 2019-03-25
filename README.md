@@ -5,13 +5,13 @@ it includes doctest regression tests.
 
 Tested on *ubuntu* with *python3* installed.
 
-#The ``cards`` module
+# The ``cards`` module
 
 The module is used to illuminate the Python Data Model,
 using examples from *fluent python* by Luciano Ramalho.
 
 
-#Test
+# Test
 To run the doctests and unit tests: 
 ```Python
 ./test_cards
