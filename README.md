@@ -55,7 +55,7 @@ False
 >>> 
 ```
 
-Sort cards by value, clubs,diamonds,hearts,spades
+Sort cards by value, clubs, diamonds, hearts, spades
 ```Python
 >>> for card in sorted(deck, key=deck.spades_high): # doctest: +ELLIPSIS
 ...     print(card)
