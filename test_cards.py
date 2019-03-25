@@ -2,6 +2,7 @@
 
 import unittest
 import cards
+import doctest
 
 
 class TestFrenchDeck(unittest.TestCase):
@@ -17,4 +18,6 @@ class TestFrenchDeck(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    doctest.testfile('README.md')
+    print("Finished Doc tests, starting unit tests.")
     unittest.main()
